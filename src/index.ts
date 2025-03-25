@@ -1,7 +1,20 @@
 import express from "express";
 import router from "./routes/api";
+import db from './utils/database';
+
+async function init(){
+   try {
+      
+   } catch (error) {
+      
+   }
+}
+
+import bodyParser from "body-parser";
 
 const app = express();
+
+app.use(bodyParser.json());
 
 const PORT = 3000;
 
