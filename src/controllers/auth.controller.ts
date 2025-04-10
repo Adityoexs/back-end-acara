@@ -45,7 +45,7 @@ export default {
 
             res.status(200).json({
                 message: "Success registration!",
-                result
+                data: result,
             })
 
         } catch (error) {
